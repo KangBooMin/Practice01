@@ -12,21 +12,21 @@ public class Pr06 {
 		int k = 0;
 		int j = 1;
 		int sum = 0;
-		
-			if(i%2==0) {
-				while(k<=i) {
-					sum=sum+k;
-					k=k+2;
-						System.out.println(sum);
-				}
-			} else {
-				while(j<=i) {
-					sum=sum+j;
-					j=j+2;
-						System.out.println(sum);
-				}
+
+		if (i % 2 == 0) {
+			while (k <= i) {
+				sum = sum + k;
+				k = k + 2;
+				System.out.println(sum);
 			}
-		
+		} else {
+			while (j <= i) {
+				sum = sum + j;
+				j = j + 2;
+				System.out.println(sum);
+			}
+		}
+
 		sc.close();
 	}
 

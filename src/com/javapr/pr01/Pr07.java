@@ -13,7 +13,7 @@ public class Pr07 {
 		System.out.println("=================");
 		int num = (int)(Math.random()*100)+1;
 
-		while(true) {
+		while (true) {
 		System.out.print(">> ");
 		int x = sc.nextInt();				
 			if(x>num) {
