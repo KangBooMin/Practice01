@@ -17,14 +17,15 @@ public class Pr06 {
 			while (k <= i) {
 				sum = sum + k;
 				k = k + 2;
-				System.out.println(sum);
+
 			}
+			System.out.println(sum);
 		} else {
 			while (j <= i) {
 				sum = sum + j;
 				j = j + 2;
-				System.out.println(sum);
 			}
+			System.out.println(sum);
 		}
 
 		sc.close();
