@@ -1,10 +1,21 @@
 package com.javapr.pr01;
 
+import java.util.Scanner;
+
 public class Pr02 {
-
+	
 	public static void main(String[] args) {
-		System.out.println("bbb");
-
+		Scanner sc = new Scanner(System. in);
+		System.out.println("숫자를 입력하세요.");
+		int num= sc.nextInt();
+		
+			for(int i=1; i<=num; i++) {
+				for(int j=0; j<i; j++) {
+					System.out.print(i);
+				}
+				System.out.println("");
+			}
+		sc.close();
 	}
 
 }
