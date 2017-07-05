@@ -17,20 +17,23 @@ public class Pr08 {
 
 			int x = sc.nextInt();
 
-			/* 1 */ if (x == 1) {
+				/* 1 */ if (x == 1) {
 				System.out.print("예금액>> ");
 				int y = sc.nextInt();
 				a = a + y;
 				System.out.print("잔고>> " + a + "\n");
+				System.out.print("\n");
 
 				/* 2 */ } else if (x == 2) {
 				System.out.print("출금액>> ");
 				int y = sc.nextInt();
 				a = a - y;
 				System.out.print("잔고>> " + a + "\n");
+				System.out.print("\n");
 
 				/* 3 */ } else if (x == 3) {
 				System.out.print("잔고>> " + a + "\n");
+				System.out.print("\n");
 
 				/* 4 */ } else if (x == 4) {
 				System.out.print("프로그램 종료");
